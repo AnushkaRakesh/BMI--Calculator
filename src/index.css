@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cormorant+Garamond:wght@300&family=Gentium+Book+Plus:ital@1&family=Libre+Baskerville&display=swap');
+* {
+  font-family: 'Acme', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Gentium Book Plus', serif;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  margin: auto;
+  display: block;
+  margin-bottom: 1%;
+  font-size: 1.5em;
+}
+
+input[type="number"] {
+  display: block;
+  margin: auto;
+  width: 300px;
+  margin-bottom: 1%;
+  font-size: 1.5em;
+}
+
+.bmiResult {
+  margin-top: 2%;
+  text-align: center;
+}
